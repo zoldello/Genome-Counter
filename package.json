@@ -1,0 +1,46 @@
+{
+  "name": "samplesheetparser",
+  "version": "1.0.0",
+  "description": "Parses either a file or read a database; containing samples to be later feed into an illumina sequencer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "sample",
+    "sheet",
+    "parser",
+    "csv",
+    "mongo",
+    "fcid",
+    "sampleid",
+    "lane",
+    "index",
+    "description",
+    "recipe",
+    "operator",
+    "sampleproject",
+    "1",
+    "2",
+    "meta-data",
+    "memorial",
+    "kettering",
+    "sloan"
+  ],
+  "author": "Philip Adenekan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "cli-clear": "^1.0.4",
+    "cli-table": "^0.3.1",
+    "commander": "^2.11.0",
+    "fast-csv": "^2.4.0",
+    "mongoose": "^4.11.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
